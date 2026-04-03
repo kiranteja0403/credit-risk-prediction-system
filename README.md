@@ -50,28 +50,29 @@ Simulated real-time streaming
 Project Structure
 
 credit-risk-prediction-system/
-
-app
-main.py
-schemas.py
-
-data
-raw
-credit_data.csv
-batch_predictions.csv
-
-models
-credit_risk_model.pkl
-
-scripts
-generate_data.py
-train_model.py
-batch_score.py
-stream_simulation.py
-test_api.py
-
-venv
-README.md
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   └── schemas.py
+│
+├── data/
+│   └── raw/
+│       ├── credit_data.csv
+│       └── batch_predictions.csv
+│
+├── models/
+│   └── credit_risk_model.pkl
+│
+├── scripts/
+│   ├── generate_data.py
+│   ├── train_model.py
+│   ├── batch_score.py
+│   ├── stream_simulation.py
+│   └── test_api.py
+│
+├── .gitignore
+├── README.md
+└── venv/
 
 ---
 
