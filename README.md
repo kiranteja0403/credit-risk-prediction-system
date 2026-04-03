@@ -48,7 +48,7 @@ Simulated real-time streaming
 ---
 
 Project Structure
-
+```
 credit-risk-prediction-system/
 ├── app/
 │   ├── __init__.py
@@ -73,6 +73,7 @@ credit-risk-prediction-system/
 ├── .gitignore
 ├── README.md
 └── venv/
+```
 
 ---
 
